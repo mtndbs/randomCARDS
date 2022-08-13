@@ -1,0 +1,49 @@
+#root{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div.card{
+    background-color: rgb(237, 237, 237);
+    height:130px;
+    width: 100px;
+    border:solid black 3px;
+    border-top: double double black 5px;
+    border-right: double black 5px;
+    border-radius:10px;
+    margin:4px;
+    transform: rotateY(0deg);
+    transition: transform 1s;
+}
+
+.card:hover{
+    outline: solid rgb(252, 252, 9) 5px;
+    }
+
+p{margin:0}
+p.upheart{
+    padding-bottom:20px;
+
+}
+p.midheart{
+    text-align:center;
+    font-size:25px;
+    padding-bottom: 23px;
+}
+p.downheart{
+    direction:rtl;
+}
+div.toggle{
+    /* background-color: red; */
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+    /* transition-duration:1s; */
+    text-indent: -9999px;
+    
+    background-image:url(/img/1075.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* -webkit-transition: background-image 5s ease-in-out; */
+
+
+}
